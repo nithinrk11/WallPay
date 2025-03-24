@@ -1,0 +1,54 @@
+.SignupContainer {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 12px;
+    gap: 20px;
+    padding: 20px;
+    background-color: #efe9e0;
+    box-shadow: 3px 3px 15px 2px #4d4d4d9d;
+    width: fit-content;
+}
+  
+.SignupContainer .Left {
+    padding: 20px 10px;
+    background-color: rgba(245, 245, 245, 0.61);
+    box-shadow: 3px 3px 15px 2px #4d4d4d9d;
+    border-radius: 12px;
+  }
+  
+.SignupContainer .Right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f9e99;
+    border-radius: 12px;
+    max-width: 600px;
+}
+  
+.carousel-wrapper {
+    width: 100%;
+    height: 100%;
+}
+  
+.carousel-wrapper .ant-carousel {
+    width: 100%;
+    height: 100%;
+}
+
+.SignupContainer .Right div {
+    height: 100%;
+}
+  
+.carousel-wrapper img {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+
+
+  
