@@ -23,7 +23,7 @@ import Login from './Login';
 import Register from './Register';
 import logo from '../assets/logo.png';
 
-import WelcomeMessage from '../components/Home/WelcomeMessage';
+import FeatureCardsSection from '../components/Home/FeatureCardsSection';
 import CarouselSection from '../components/Home/CarouselSection';
 import CardsSection from '../components/Home/CardsSection';
 
@@ -86,7 +86,7 @@ const Home = () => {
           <>
             <>
               <CarouselSection />
-              <WelcomeMessage />
+              <FeatureCardsSection />
               <CardsSection />
             </>
           </>
