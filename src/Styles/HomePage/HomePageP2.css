@@ -1,0 +1,31 @@
+/* Styles apply only to cards inside .HomePageP2 */
+.HomePageP2 {
+  margin-top: 40px;
+}
+.HomePageP2 .custom-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.HomePageP2 .card-cover {
+  position: relative;
+}
+
+.HomePageP2 .card-semi-oval {
+  position: absolute;
+  top: -18%;
+  left: 50%;
+  width: 170%;
+  height: 90%;
+  background: rgba(77, 153, 241, 0.263); /* Soft green transparent */
+  border-radius: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.HomePageP2 .card-image {
+  width: 260px;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
