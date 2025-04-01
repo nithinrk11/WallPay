@@ -10,10 +10,14 @@ import { Layout, Menu, Card, Row, Col, Button, Dropdown, theme, Modal } from "an
 import HomePage from "../components/HomePage.jsx";
 import SignupPage from "../components/SignupPage.jsx";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import LoginPage from "../components/LoginPage.jsx"; // Import LoginPage
 =======
 import LoginPage from "../components/LoginPage.jsx"; 
 >>>>>>> b7394598 (frontend and backend compatibility updates)
+=======
+import LoginPage from "../components/LoginPage.jsx"; // Import LoginPage
+>>>>>>> 535ea124bde38f4e69ed815ac86af114edbb2dbf
 
 const { Header, Content, Footer } = Layout;
 

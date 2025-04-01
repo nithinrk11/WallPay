@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b7394598 (frontend and backend compatibility updates)
+=======
+>>>>>>> 535ea124bde38f4e69ed815ac86af114edbb2dbf
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
@@ -94,6 +97,7 @@ app.post('/api/login', async (req, res) => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // Get all users endpoint
 app.get('/api/users', async (req, res) => {
@@ -106,11 +110,16 @@ app.get('/api/users', async (req, res) => {
 });
 
 >>>>>>> b7394598 (frontend and backend compatibility updates)
+=======
+>>>>>>> 535ea124bde38f4e69ed815ac86af114edbb2dbf
 // Start server
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 535ea124bde38f4e69ed815ac86af114edbb2dbf
 =======
 require("dotenv").config();
 const express = require("express");
@@ -137,5 +146,8 @@ mongoose.connect(process.env.MONGO_URI, {
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 >>>>>>> d04dad7d7289b9107e35bf292b581db7f41fcc05
+<<<<<<< HEAD
 =======
 >>>>>>> b7394598 (frontend and backend compatibility updates)
+=======
+>>>>>>> 535ea124bde38f4e69ed815ac86af114edbb2dbf

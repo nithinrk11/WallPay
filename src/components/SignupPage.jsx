@@ -1,12 +1,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 535ea124bde38f4e69ed815ac86af114edbb2dbf
 import React, { useState } from 'react';
 =======
 import React from 'react';
 >>>>>>> d04dad7d7289b9107e35bf292b581db7f41fcc05
+<<<<<<< HEAD
 =======
 import React, { useState } from 'react';
 >>>>>>> b7394598 (frontend and backend compatibility updates)
+=======
+>>>>>>> 535ea124bde38f4e69ed815ac86af114edbb2dbf
 import {
   Button,
   Checkbox,
@@ -18,15 +24,21 @@ import {
   Space,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 535ea124bde38f4e69ed815ac86af114edbb2dbf
   Divider,
   notification,
 =======
   Divider
 >>>>>>> d04dad7d7289b9107e35bf292b581db7f41fcc05
+<<<<<<< HEAD
 =======
   Divider,
   notification,
 >>>>>>> b7394598 (frontend and backend compatibility updates)
+=======
+>>>>>>> 535ea124bde38f4e69ed815ac86af114edbb2dbf
 } from 'antd';
 
 import "../Styles/HomePage/SignupPage.css";
@@ -35,8 +47,11 @@ const SignupPage = ({ open, onClose, onLoginClick }) => {
   const [form] = Form.useForm();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b7394598 (frontend and backend compatibility updates)
+=======
+>>>>>>> 535ea124bde38f4e69ed815ac86af114edbb2dbf
   const [loading, setLoading] = useState(false);
   const [api, contextHolder] = notification.useNotification();
 
@@ -184,6 +199,9 @@ const SignupPage = ({ open, onClose, onLoginClick }) => {
       </Drawer>
     </>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 535ea124bde38f4e69ed815ac86af114edbb2dbf
 =======
 
   const onFinish = (values) => {
@@ -286,8 +304,11 @@ const SignupPage = ({ open, onClose, onLoginClick }) => {
       </Form>
     </Drawer>
 >>>>>>> d04dad7d7289b9107e35bf292b581db7f41fcc05
+<<<<<<< HEAD
 =======
 >>>>>>> b7394598 (frontend and backend compatibility updates)
+=======
+>>>>>>> 535ea124bde38f4e69ed815ac86af114edbb2dbf
   );
 };
 
